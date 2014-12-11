@@ -1,0 +1,70 @@
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.239609,"latitude":53.426552},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970001"}',113062,'Entry for Dublin Airport',223349, 'Dublin', 'Ireland', 'Dublin Airport, Dublin, Ireland',53.426552,-6.239609, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.239609,"latitude":53.426552},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970001"}',113062,'Exit for Dublin Airport',223349, 'Dublin', 'Ireland', 'Dublin Airport, Dublin, Ireland',53.426552,-6.239609, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.919498,"latitude":52.692427},"radius":250,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970002"}',113062,'Entry for Shannon Airport',223349, 'Clare', 'Ireland', 'Shannon Airport, Clare, Ireland',52.692427,-8.919498, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.919498,"latitude":52.692427},"radius":250,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970002"}',113062,'Exit for Shannon Airport',223349, 'Clare', 'Ireland', 'Shannon Airport, Clare, Ireland',52.692427,-8.919498, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.490254,"latitude":51.850119},"radius":200,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970003"}',113062,'Entry for Cork Airport',223349, 'Cork', 'Ireland', 'Cork Airport, Kinsale Road, Cork, Ireland',51.850119,-8.490254, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.490254,"latitude":51.850119},"radius":200,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970003"}',113062,'Exit for Cork Airport',223349, 'Cork', 'Ireland', 'Cork Airport, Kinsale Road, Cork, Ireland',51.850119,-8.490254, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0004',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.21956,"latitude":54.661471},"radius":250,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970004"}',113062,'Entry for Belfast International Airport',223349, 'Belfast', 'United Kingdom', 'Belfast International Airport, Airport Road, Belfast BT29 4AB, United Kingdom',54.661471,-6.21956, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0004',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.21956,"latitude":54.661471},"radius":250,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970004"}',113062,'Exit for Belfast International Airport',223349, 'Belfast', 'United Kingdom', 'Belfast International Airport, Airport Road, Belfast BT29 4AB, United Kingdom',54.661471,-6.21956, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0005',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-0.454295,"latitude":51.470022},"radius":1250,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970005"}',113062,'Entry for Heathrow Airport',223349, 'London', 'United Kingdom', 'Heathrow Airport, Greater London TW6, United Kingdom',51.470022,-0.454295, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0005',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-0.454295,"latitude":51.470022},"radius":1250,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970005"}',113062,'Exit for Heathrow Airport',223349, 'London', 'United Kingdom', 'Heathrow Airport, Greater London TW6, United Kingdom',51.470022,-0.454295, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0006',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-73.78706,"latitude":40.645063},"radius":1000,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970006"}',113062,'Entry for JFK International Airport',223349, 'New York City', 'United States', 'JFK International Airport, Jamaica, New York, NY 11430, United States',40.645063,-73.78706, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0006',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-73.78706,"latitude":40.645063},"radius":1000,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970006"}',113062,'Exit for JFK International Airport',223349, 'New York City', 'United States', 'JFK International Airport, Jamaica, New York, NY 11430, United States',40.645063,-73.78706, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0007',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":27.589171,"latitude":53.918085},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970007"}',113062,'Entry for Nezavisimosti, 58',223349, 'Minsk', 'Belarus', 'Belarus, Minsk, Nezavisimosti, 58',53.918085,27.589171, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0007',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":27.589171,"latitude":53.918085},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970007"}',113062,'Exit for Nezavisimosti, 58',223349, 'Minsk', 'Belarus', 'Belarus, Minsk, Nezavisimosti, 58',53.918085,27.589171, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0008',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":24.000921,"latitude":49.842569},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970008"}',113062,'Entry for Oleny Stepanivny St, 42',223349, 'Lviv', 'Ukraine', 'Oleny Stepanivny St, 42, L''viv, Lviv Oblast, Ukraine',49.842569,24.000921, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0008',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":24.000921,"latitude":49.842569},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970008"}',113062,'Exit for Oleny Stepanivny St, 42',223349, 'Lviv', 'Ukraine', 'Oleny Stepanivny St, 42, L''viv, Lviv Oblast, Ukraine',49.842569,24.000921, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0009',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":30.921257,"latitude":52.40521},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970009"}',113062,'Entry for Rechitsky, 80',223349, 'Gomel', 'Belarus', 'Belarus, Gomel, Rechitsky, 80',52.40521,30.921257, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0009',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":30.921257,"latitude":52.40521},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970009"}',113062,'Exit for Rechitsky, 80',223349, 'Gomel', 'Belarus', 'Belarus, Gomel, Rechitsky, 80',52.40521,30.921257, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa83311c4-b57a-4faa-823f-b6df37a0010',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":31.008492,"latitude":52.425072},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970010"}',113062,'Entry for Lenina av. 10',223349, 'Gomel', 'Belarus', 'Belarus, Gomel, Lenina av. 10',52.425072,31.008492, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb83311c4-b57a-4faa-823f-b6df37b0010',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":31.008492,"latitude":52.425072},"radius":500,"regionId":"badea0a0-3af9-47a9-9e61-eec65c970010"}',113062,'Exit for Lenina av. 10',223349, 'Gomel', 'Belarus', 'Belarus, Gomel, Lenina av. 10',52.425072,31.008492, '');
+

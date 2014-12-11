@@ -1,0 +1,21 @@
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa82344ce1-e58a-4faa-823e-c6df34a0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":34.794586,"latitude":32.12814},"radius":250,"regionId":"ab4d900-3af9-47a9-9e72-eec75c8a0001"}',113062,'Entry for hme',173514, 'tlv', 'Israel', 'home',32.12814,34.794586, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb82344ce1-e58a-4faa-823e-c6df34b0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":34.794586,"latitude":32.12814},"radius":250,"regionId":"ab4d900-3af9-47a9-9e72-eec75c8a0001"}',113062,'Exit for hme',173514, 'tlv', 'Israel', 'home',32.12814,34.794586, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa82344ce1-e58a-4faa-823e-c6df34a0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":34.794447,"latitude":32.122688},"radius":250,"regionId":"ab4d900-3af9-47a9-9e72-eec75c8a0002"}',113062,'Entry for intersection',173514, 'tlv', 'Israel', 'intersection',32.122688,34.794447, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb82344ce1-e58a-4faa-823e-c6df34b0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":34.794447,"latitude":32.122688},"radius":250,"regionId":"ab4d900-3af9-47a9-9e72-eec75c8a0002"}',113062,'Exit for intersection',173514, 'tlv', 'Israel', 'intersection',32.122688,34.794447, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa82344ce1-e58a-4faa-823e-c6df34a0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":34.79032188,"latitude":32.12338825},"radius":250,"regionId":"ab4d900-3af9-47a9-9e72-eec75c8a0003"}',113062,'Entry for think-home',173514, 'tlv', 'Israel', 'think-home',32.12338825,34.79032188, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb82344ce1-e58a-4faa-823e-c6df34b0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":34.79032188,"latitude":32.12338825},"radius":250,"regionId":"ab4d900-3af9-47a9-9e72-eec75c8a0003"}',113062,'Exit for think-home',173514, 'tlv', 'Israel', 'think-home',32.12338825,34.79032188, '');
+

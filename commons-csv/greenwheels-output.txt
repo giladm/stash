@@ -1,0 +1,585 @@
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('54e3e1d3-df57-4600-afdf-de8d42cd2295',218849,now(),now(),'{"beaconRegionId":"e2e90662-475a-4b64-a7df-87434dc7e020","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":1}}',218849,'Entry for Greenwheels 11',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-99.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f672f9a7-e2f5-423d-96ae-eb476d87e93e',218849,now(),now(),'{"beaconRegionId":"e2e90662-475a-4b64-a7df-87434dc7e020","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":1}}',218849,'Exit with dwell for Greenwheels 11',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-99.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('473018ea-7779-48b8-a98e-4f26aa04bd42',218849,now(),now(),'{"beaconRegionId":"e2e90662-475a-4b64-a7df-87434dc7e020","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":1}}',218849,'Exit without dwell for Greenwheels 11',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-100.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('5bd005a3-0406-4b1c-ae04-1096ab25a2e2',218849,now(),now(),'{"beaconRegionId":"e2e90662-475a-4b64-a7df-87434dc7e020","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":1}}',218849,'Dwell for Greenwheels 11',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-100.892432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('62a6eb89-609d-4e64-9e79-5bf06906107e',218849,now(),now(),'{"beaconRegionId":"4f770bd2-1a11-41e8-9d15-191de17a41b9","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":1}}',218849,'Entry for Greenwheels 12',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-101.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('5fd22ce9-c8d1-4766-8358-38e7d83fd584',218849,now(),now(),'{"beaconRegionId":"4f770bd2-1a11-41e8-9d15-191de17a41b9","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":1}}',218849,'Exit with dwell for Greenwheels 12',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-102.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('0d3494bc-f31e-4811-b05f-d3dfbc5b268a',218849,now(),now(),'{"beaconRegionId":"4f770bd2-1a11-41e8-9d15-191de17a41b9","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":1}}',218849,'Exit without dwell for Greenwheels 12',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-102.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('d3ed8bb1-a7af-441c-a5fa-63d9f13c127b',218849,now(),now(),'{"beaconRegionId":"4f770bd2-1a11-41e8-9d15-191de17a41b9","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":1}}',218849,'Dwell for Greenwheels 12',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-103.292432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('053e4bfb-9f05-4320-b608-f1ab8363c924',218849,now(),now(),'{"beaconRegionId":"1d18ebc5-93d4-40fa-81aa-b6355b09cc9b","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":1}}',218849,'Entry for Greenwheels 13',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-103.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('2f86d95a-080b-4c57-8c3f-f8bc1873e2df',218849,now(),now(),'{"beaconRegionId":"1d18ebc5-93d4-40fa-81aa-b6355b09cc9b","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":1}}',218849,'Exit with dwell for Greenwheels 13',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-104.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f9326673-804b-475a-a93d-1d0075839556',218849,now(),now(),'{"beaconRegionId":"1d18ebc5-93d4-40fa-81aa-b6355b09cc9b","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":1}}',218849,'Exit without dwell for Greenwheels 13',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-105.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f0a27b4a-0841-4c97-b5f9-7924021e8a50',218849,now(),now(),'{"beaconRegionId":"1d18ebc5-93d4-40fa-81aa-b6355b09cc9b","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":1}}',218849,'Dwell for Greenwheels 13',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-105.692432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('0f8757b6-e7f6-4b01-a893-7d9b786529aa',218849,now(),now(),'{"beaconRegionId":"9a189eb0-89c2-4c26-8b15-1b7c542b01c1","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":1}}',218849,'Entry for Greenwheels 14',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-106.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ff03bc3a-6334-443f-9c63-3c5dcab59dce',218849,now(),now(),'{"beaconRegionId":"9a189eb0-89c2-4c26-8b15-1b7c542b01c1","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":1}}',218849,'Exit with dwell for Greenwheels 14',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-106.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('62c5d0a1-e0fd-4447-9e63-46dba57576ac',218849,now(),now(),'{"beaconRegionId":"9a189eb0-89c2-4c26-8b15-1b7c542b01c1","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":1}}',218849,'Exit without dwell for Greenwheels 14',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-107.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7bc8ad89-9663-442b-84c2-28e1c1722dce',218849,now(),now(),'{"beaconRegionId":"9a189eb0-89c2-4c26-8b15-1b7c542b01c1","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":1}}',218849,'Dwell for Greenwheels 14',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-108.092432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('8358c247-ff91-4c8a-be26-8f33fafff5a0',218849,now(),now(),'{"beaconRegionId":"d3142cf8-439a-496f-a200-9785916ca2a9","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":1}}',218849,'Entry for Greenwheels 15',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-108.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f53483f9-7d22-4684-a88d-1f0e8252f24b',218849,now(),now(),'{"beaconRegionId":"d3142cf8-439a-496f-a200-9785916ca2a9","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":1}}',218849,'Exit with dwell for Greenwheels 15',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-109.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ab40c728-9dca-4b80-b928-30f0f2f29c57',218849,now(),now(),'{"beaconRegionId":"d3142cf8-439a-496f-a200-9785916ca2a9","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":1}}',218849,'Exit without dwell for Greenwheels 15',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-109.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('e9373a19-94c5-415a-91cb-af6ef0dcf1ec',218849,now(),now(),'{"beaconRegionId":"d3142cf8-439a-496f-a200-9785916ca2a9","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":1}}',218849,'Dwell for Greenwheels 15',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-110.492432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('00c4a956-d158-4e97-983a-1f900677f9c6',218849,now(),now(),'{"beaconRegionId":"bae748e1-c310-4555-b2a0-162ba45fe0b0","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":1}}',218849,'Entry for Greenwheels 16',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-111.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f43e9e6b-5771-42a1-8b42-5256fb2b169a',218849,now(),now(),'{"beaconRegionId":"bae748e1-c310-4555-b2a0-162ba45fe0b0","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":1}}',218849,'Exit with dwell for Greenwheels 16',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-111.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('21db292c-8894-4600-977b-11d7fe7dde9c',218849,now(),now(),'{"beaconRegionId":"bae748e1-c310-4555-b2a0-162ba45fe0b0","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":1}}',218849,'Exit without dwell for Greenwheels 16',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-112.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('1ee2b69b-f830-4f6e-b09c-37229f55916b',218849,now(),now(),'{"beaconRegionId":"bae748e1-c310-4555-b2a0-162ba45fe0b0","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":1}}',218849,'Dwell for Greenwheels 16',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-112.892432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9301dbbb-4f70-4889-8874-61564017b50c',218849,now(),now(),'{"beaconRegionId":"96217b54-ef7b-4a3e-ae29-e6f01a1b1fdf","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":1}}',218849,'Entry for Greenwheels 17',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-113.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('32740413-d58b-4ea1-a4d5-774b8507a37d',218849,now(),now(),'{"beaconRegionId":"96217b54-ef7b-4a3e-ae29-e6f01a1b1fdf","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":1}}',218849,'Exit with dwell for Greenwheels 17',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-114.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9d94f3b3-f9bd-4108-ba9d-f08320ae7499',218849,now(),now(),'{"beaconRegionId":"96217b54-ef7b-4a3e-ae29-e6f01a1b1fdf","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":1}}',218849,'Exit without dwell for Greenwheels 17',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-114.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('77fd5498-65a1-467d-ba13-7a27a8665c05',218849,now(),now(),'{"beaconRegionId":"96217b54-ef7b-4a3e-ae29-e6f01a1b1fdf","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":1}}',218849,'Dwell for Greenwheels 17',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-115.292432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('eee0afd3-7a79-408b-ad2e-cfd2c88a7e62',218849,now(),now(),'{"beaconRegionId":"92318bbf-5100-4467-80c5-1f0d9cdad0d1","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":1}}',218849,'Entry for Greenwheels 18',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-115.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('58908825-1213-40fc-8e45-c9745d4860c6',218849,now(),now(),'{"beaconRegionId":"92318bbf-5100-4467-80c5-1f0d9cdad0d1","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":1}}',218849,'Exit with dwell for Greenwheels 18',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-116.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('222b7d02-2f0a-4e2d-a9d1-1c4cf16cc9e1',218849,now(),now(),'{"beaconRegionId":"92318bbf-5100-4467-80c5-1f0d9cdad0d1","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":1}}',218849,'Exit without dwell for Greenwheels 18',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-117.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('5b4a7017-7223-49d9-8f3b-7f6c00511f77',218849,now(),now(),'{"beaconRegionId":"92318bbf-5100-4467-80c5-1f0d9cdad0d1","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":1}}',218849,'Dwell for Greenwheels 18',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-117.692432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('a0f01c2c-eed9-40cf-9663-6ab3362a1707',218849,now(),now(),'{"beaconRegionId":"9fe7157f-dbcc-4076-b107-b4929c8f8111","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":1}}',218849,'Entry for Greenwheels 19',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-118.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('d736cbeb-ddad-4ea7-8840-243918f97a7f',218849,now(),now(),'{"beaconRegionId":"9fe7157f-dbcc-4076-b107-b4929c8f8111","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":1}}',218849,'Exit with dwell for Greenwheels 19',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-118.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7f253caf-1a26-488d-a31d-f582d8ce1f7a',218849,now(),now(),'{"beaconRegionId":"9fe7157f-dbcc-4076-b107-b4929c8f8111","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":1}}',218849,'Exit without dwell for Greenwheels 19',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-119.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('b70f9437-db30-4e7c-bf91-4c3a4b2b9589',218849,now(),now(),'{"beaconRegionId":"9fe7157f-dbcc-4076-b107-b4929c8f8111","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":1}}',218849,'Dwell for Greenwheels 19',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.355596,-120.092432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('5607fe00-bd46-4fa4-b953-e50bcde762ce',218849,now(),now(),'{"beaconRegionId":"766031c5-fa1c-4777-befa-bb859054d17e","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":1}}',218849,'Entry for Greenwheels 110',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-120.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ef4c317f-549b-412e-a67b-8da82c2165cb',218849,now(),now(),'{"beaconRegionId":"766031c5-fa1c-4777-befa-bb859054d17e","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":1}}',218849,'Exit with dwell for Greenwheels 110',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-121.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('85ee8f7f-39c2-47dd-bf4b-55a6ac24202e',218849,now(),now(),'{"beaconRegionId":"766031c5-fa1c-4777-befa-bb859054d17e","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":1}}',218849,'Exit without dwell for Greenwheels 110',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-121.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('fcb9249b-839f-409e-9b61-0e1ff948da75',218849,now(),now(),'{"beaconRegionId":"766031c5-fa1c-4777-befa-bb859054d17e","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":1}}',218849,'Dwell for Greenwheels 110',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.355596,-122.492432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('459c2ff1-5610-42f5-8131-27ee64ea68e9',218849,now(),now(),'{"beaconRegionId":"1c9f56eb-5927-4de2-84ee-73d665055aa0","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":1}}',218849,'Entry for Greenwheels 111',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-99.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('fed84317-861b-4c78-a3c8-6e8fc252ce64',218849,now(),now(),'{"beaconRegionId":"1c9f56eb-5927-4de2-84ee-73d665055aa0","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":1}}',218849,'Exit with dwell for Greenwheels 111',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-99.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9fb042ac-b891-4aab-8e80-72a2e2b53cfd',218849,now(),now(),'{"beaconRegionId":"1c9f56eb-5927-4de2-84ee-73d665055aa0","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":1}}',218849,'Exit without dwell for Greenwheels 111',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-100.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('868ac5f8-4f6b-41e9-a0a4-9895ddb801bf',218849,now(),now(),'{"beaconRegionId":"1c9f56eb-5927-4de2-84ee-73d665055aa0","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":1}}',218849,'Dwell for Greenwheels 111',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-100.892432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('c7092ae8-0d9d-4a49-a7ee-80312cc1a6af',218849,now(),now(),'{"beaconRegionId":"d5d61c89-2857-46c7-93af-84831d19c108","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":1}}',218849,'Entry for Greenwheels 112',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-101.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ba45c95a-426f-4fc7-9bfd-f89916a67c2a',218849,now(),now(),'{"beaconRegionId":"d5d61c89-2857-46c7-93af-84831d19c108","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":1}}',218849,'Exit with dwell for Greenwheels 112',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-102.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('b39e431d-6374-4a16-8232-84788b357517',218849,now(),now(),'{"beaconRegionId":"d5d61c89-2857-46c7-93af-84831d19c108","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":1}}',218849,'Exit without dwell for Greenwheels 112',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-102.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('de048c71-3983-4716-91c9-99e7dd74f6aa',218849,now(),now(),'{"beaconRegionId":"d5d61c89-2857-46c7-93af-84831d19c108","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":1}}',218849,'Dwell for Greenwheels 112',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-103.292432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3184c478-769e-4c9c-b8de-214b0d2136e0',218849,now(),now(),'{"beaconRegionId":"dcb0c2d0-2350-4330-a07a-21982d964a1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":1}}',218849,'Entry for Greenwheels 113',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-103.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('29878561-f940-4ee7-8688-8f999cd04f28',218849,now(),now(),'{"beaconRegionId":"dcb0c2d0-2350-4330-a07a-21982d964a1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":1}}',218849,'Exit with dwell for Greenwheels 113',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-104.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('27353610-910d-4e5e-ac58-4754012125a4',218849,now(),now(),'{"beaconRegionId":"dcb0c2d0-2350-4330-a07a-21982d964a1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":1}}',218849,'Exit without dwell for Greenwheels 113',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-105.092432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('23ad6b26-f3b2-48a5-96c3-181639f668f3',218849,now(),now(),'{"beaconRegionId":"dcb0c2d0-2350-4330-a07a-21982d964a1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":1}}',218849,'Dwell for Greenwheels 113',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-105.692432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('4f06b364-e138-41f6-9230-b7c166e2f493',218849,now(),now(),'{"beaconRegionId":"e34c4104-cca2-4096-92a0-41e10a52f8e9","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":1}}',218849,'Entry for Greenwheels 114',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-106.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('4db79fd4-78d4-4948-b6a3-8fdca05157b3',218849,now(),now(),'{"beaconRegionId":"e34c4104-cca2-4096-92a0-41e10a52f8e9","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":1}}',218849,'Exit with dwell for Greenwheels 114',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-106.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('1438759f-f7e3-443a-b11c-9c74fd9adff0',218849,now(),now(),'{"beaconRegionId":"e34c4104-cca2-4096-92a0-41e10a52f8e9","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":1}}',218849,'Exit without dwell for Greenwheels 114',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-107.492432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('736feb6a-2367-45e4-b2cc-477db696d42e',218849,now(),now(),'{"beaconRegionId":"e34c4104-cca2-4096-92a0-41e10a52f8e9","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":1}}',218849,'Dwell for Greenwheels 114',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-108.092432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('939b0d6a-665c-4c5d-813f-6755a6367ea1',218849,now(),now(),'{"beaconRegionId":"2a01fff9-f556-4da9-863b-ea465b20eb26","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":1}}',218849,'Entry for Greenwheels 115',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-108.692432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('4e7b89e5-8939-4e9b-bcff-4c69b815c65f',218849,now(),now(),'{"beaconRegionId":"2a01fff9-f556-4da9-863b-ea465b20eb26","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":1}}',218849,'Exit with dwell for Greenwheels 115',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-109.292432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('0442cfb3-340f-490e-a2bc-4e9d9d660a2d',218849,now(),now(),'{"beaconRegionId":"2a01fff9-f556-4da9-863b-ea465b20eb26","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":1}}',218849,'Exit without dwell for Greenwheels 115',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-109.892432, '11373-4937');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('cf77f6ff-c416-476f-ba2d-d1e135a141ef',218849,now(),now(),'{"beaconRegionId":"2a01fff9-f556-4da9-863b-ea465b20eb26","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":1}}',218849,'Dwell for Greenwheels 115',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-110.492432, '11373-4937');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7faccf56-e6cf-4d73-99db-6ec0534251a4',218849,now(),now(),'{"beaconRegionId":"00c06bdc-8a31-4053-86b4-2045e2b36d57","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":2}}',218849,'Entry for Greenwheels 21',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-111.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('2edc1c8c-e6aa-449b-a201-c14790accd50',218849,now(),now(),'{"beaconRegionId":"00c06bdc-8a31-4053-86b4-2045e2b36d57","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":2}}',218849,'Exit with dwell for Greenwheels 21',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-111.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb06193e-2430-43ff-ae1b-aef12c66777d',218849,now(),now(),'{"beaconRegionId":"00c06bdc-8a31-4053-86b4-2045e2b36d57","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":2}}',218849,'Exit without dwell for Greenwheels 21',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-112.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9e985bb8-e0ac-42a2-8f26-9e2213a3127a',218849,now(),now(),'{"beaconRegionId":"00c06bdc-8a31-4053-86b4-2045e2b36d57","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":2}}',218849,'Dwell for Greenwheels 21',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-112.892432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('709feeb8-342b-45c0-b63f-b5e564a52fd9',218849,now(),now(),'{"beaconRegionId":"f65daf2c-94db-4f20-8ac9-07650aa85f92","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":2}}',218849,'Entry for Greenwheels 22',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-113.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('367a91ef-a06b-4744-a701-20112a4b86fb',218849,now(),now(),'{"beaconRegionId":"f65daf2c-94db-4f20-8ac9-07650aa85f92","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":2}}',218849,'Exit with dwell for Greenwheels 22',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-114.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9e67d484-f4d0-40e6-9a7e-442f5d9478fd',218849,now(),now(),'{"beaconRegionId":"f65daf2c-94db-4f20-8ac9-07650aa85f92","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":2}}',218849,'Exit without dwell for Greenwheels 22',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-114.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9ff16d4c-d924-4cf6-97e3-8cfd7ac76287',218849,now(),now(),'{"beaconRegionId":"f65daf2c-94db-4f20-8ac9-07650aa85f92","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":2}}',218849,'Dwell for Greenwheels 22',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-115.292432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('56930892-3d51-4d1c-8bf9-2a3090272c67',218849,now(),now(),'{"beaconRegionId":"8b739e15-68d9-4dfc-8462-bebe65fa010c","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":2}}',218849,'Entry for Greenwheels 23',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-115.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('c75ca614-d541-4435-8f0b-ab9d7b9e4a4c',218849,now(),now(),'{"beaconRegionId":"8b739e15-68d9-4dfc-8462-bebe65fa010c","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":2}}',218849,'Exit with dwell for Greenwheels 23',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-116.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('dbe4023c-4a13-4f4d-87f3-0c9b26c33443',218849,now(),now(),'{"beaconRegionId":"8b739e15-68d9-4dfc-8462-bebe65fa010c","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":2}}',218849,'Exit without dwell for Greenwheels 23',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-117.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3729a6ec-4aed-454a-811c-02d827226427',218849,now(),now(),'{"beaconRegionId":"8b739e15-68d9-4dfc-8462-bebe65fa010c","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":2}}',218849,'Dwell for Greenwheels 23',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-59.055596,-117.692432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('b2294d73-6379-4a0b-b7f2-b507e8a65c44',218849,now(),now(),'{"beaconRegionId":"c63f3843-ebc9-4d44-8534-e4f35586185d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":2}}',218849,'Entry for Greenwheels 24',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-118.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('8661a015-3241-4cfd-84c9-d96d5ef8e7cf',218849,now(),now(),'{"beaconRegionId":"c63f3843-ebc9-4d44-8534-e4f35586185d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":2}}',218849,'Exit with dwell for Greenwheels 24',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-118.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('c3d7f4c1-5c7d-46f9-bc12-0e5dbc5ad960',218849,now(),now(),'{"beaconRegionId":"c63f3843-ebc9-4d44-8534-e4f35586185d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":2}}',218849,'Exit without dwell for Greenwheels 24',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-119.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('8e7afa46-5205-43e3-9461-af3b2f98c578',218849,now(),now(),'{"beaconRegionId":"c63f3843-ebc9-4d44-8534-e4f35586185d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":2}}',218849,'Dwell for Greenwheels 24',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-120.092432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('4b9d8ded-a412-4294-b5b2-cc205aa67a5d',218849,now(),now(),'{"beaconRegionId":"7b7fa7c1-bd6f-4a97-9e9d-3ba0679fc09c","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":2}}',218849,'Entry for Greenwheels 25',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-120.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('8bd00fa5-8aa3-4ba6-a908-95826623094e',218849,now(),now(),'{"beaconRegionId":"7b7fa7c1-bd6f-4a97-9e9d-3ba0679fc09c","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":2}}',218849,'Exit with dwell for Greenwheels 25',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-121.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('705e6985-3723-4cde-98a6-5c75c66f773e',218849,now(),now(),'{"beaconRegionId":"7b7fa7c1-bd6f-4a97-9e9d-3ba0679fc09c","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":2}}',218849,'Exit without dwell for Greenwheels 25',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-121.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('66a6eab5-7dd8-4b6d-91ee-63d698b46e3f',218849,now(),now(),'{"beaconRegionId":"7b7fa7c1-bd6f-4a97-9e9d-3ba0679fc09c","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":2}}',218849,'Dwell for Greenwheels 25',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-59.055596,-122.492432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('a51d3c87-fcbc-438a-83b8-1f7c0e75f02f',218849,now(),now(),'{"beaconRegionId":"e7825286-bd80-4ffa-9f2d-c63bc658434d","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":2}}',218849,'Entry for Greenwheels 26',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-99.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('fccc7da3-2163-471c-9b96-c43d2ff07532',218849,now(),now(),'{"beaconRegionId":"e7825286-bd80-4ffa-9f2d-c63bc658434d","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":2}}',218849,'Exit with dwell for Greenwheels 26',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-99.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('946c275c-8a4a-4d17-9831-02962584f8a7',218849,now(),now(),'{"beaconRegionId":"e7825286-bd80-4ffa-9f2d-c63bc658434d","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":2}}',218849,'Exit without dwell for Greenwheels 26',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-100.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('fade26d0-065c-4095-bb5c-13ff1e95b2ab',218849,now(),now(),'{"beaconRegionId":"e7825286-bd80-4ffa-9f2d-c63bc658434d","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":2}}',218849,'Dwell for Greenwheels 26',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-100.892432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ee755352-cb9a-4704-a1eb-b499832e016f',218849,now(),now(),'{"beaconRegionId":"b2985a08-81b1-43cc-b1b8-b015832719e4","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":2}}',218849,'Entry for Greenwheels 27',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-101.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('8265b36e-ed40-479d-8dbf-70ded8e6ba7e',218849,now(),now(),'{"beaconRegionId":"b2985a08-81b1-43cc-b1b8-b015832719e4","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":2}}',218849,'Exit with dwell for Greenwheels 27',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-102.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('6513e264-e71b-44e5-b31e-b94473b8c268',218849,now(),now(),'{"beaconRegionId":"b2985a08-81b1-43cc-b1b8-b015832719e4","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":2}}',218849,'Exit without dwell for Greenwheels 27',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-102.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('86a2ed09-dc5f-43a9-b9f9-8797fa4e2e99',218849,now(),now(),'{"beaconRegionId":"b2985a08-81b1-43cc-b1b8-b015832719e4","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":2}}',218849,'Dwell for Greenwheels 27',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-103.292432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7bd4c07e-ce21-4237-949f-75ab766e6fa3',218849,now(),now(),'{"beaconRegionId":"0568ee6a-f44c-4e7f-a9eb-4fc2971c5088","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":2}}',218849,'Entry for Greenwheels 28',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-103.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('91e619da-585c-4918-b4f9-847c9500dfd4',218849,now(),now(),'{"beaconRegionId":"0568ee6a-f44c-4e7f-a9eb-4fc2971c5088","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":2}}',218849,'Exit with dwell for Greenwheels 28',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-104.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('1ec35a4e-ec0b-4a45-a7d1-4a090a6633f4',218849,now(),now(),'{"beaconRegionId":"0568ee6a-f44c-4e7f-a9eb-4fc2971c5088","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":2}}',218849,'Exit without dwell for Greenwheels 28',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-105.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('08bcfe2f-dac6-4765-ad7a-32f09029a55d',218849,now(),now(),'{"beaconRegionId":"0568ee6a-f44c-4e7f-a9eb-4fc2971c5088","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":2}}',218849,'Dwell for Greenwheels 28',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-105.692432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3b1d24f1-bbd2-4f49-bc1a-c1e9a5522657',218849,now(),now(),'{"beaconRegionId":"74e67d03-aed0-490d-b3a6-a9f05c8dcd41","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":2}}',218849,'Entry for Greenwheels 29',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-106.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9fa80591-3550-472a-8297-f70ea4bc7b3b',218849,now(),now(),'{"beaconRegionId":"74e67d03-aed0-490d-b3a6-a9f05c8dcd41","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":2}}',218849,'Exit with dwell for Greenwheels 29',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-106.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('70579fab-5bf5-44da-a90a-36896d9b6b94',218849,now(),now(),'{"beaconRegionId":"74e67d03-aed0-490d-b3a6-a9f05c8dcd41","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":2}}',218849,'Exit without dwell for Greenwheels 29',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-107.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('da992564-b40e-4e6f-b868-73ac8ed2af6a',218849,now(),now(),'{"beaconRegionId":"74e67d03-aed0-490d-b3a6-a9f05c8dcd41","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":2}}',218849,'Dwell for Greenwheels 29',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-108.092432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('25f42e57-b245-4ba3-86e8-b0fd5617addf',218849,now(),now(),'{"beaconRegionId":"c158d20b-7ad4-489b-b3ac-329e7e2cb15d","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":2}}',218849,'Entry for Greenwheels 210',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-108.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('78afaa81-6363-4a7b-b099-d47feb3f5f09',218849,now(),now(),'{"beaconRegionId":"c158d20b-7ad4-489b-b3ac-329e7e2cb15d","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":2}}',218849,'Exit with dwell for Greenwheels 210',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-109.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('23086956-89d2-49e9-8e02-a262ea99f30f',218849,now(),now(),'{"beaconRegionId":"c158d20b-7ad4-489b-b3ac-329e7e2cb15d","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":2}}',218849,'Exit without dwell for Greenwheels 210',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-109.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('c6b0bacf-7b91-43c3-a8c6-98376e5fc619',218849,now(),now(),'{"beaconRegionId":"c158d20b-7ad4-489b-b3ac-329e7e2cb15d","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":2}}',218849,'Dwell for Greenwheels 210',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-110.492432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('e6f4925f-ef50-41e9-bf22-ad982a8765e2',218849,now(),now(),'{"beaconRegionId":"ed0ebebe-1c08-4644-83ac-ca226f7936ea","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":2}}',218849,'Entry for Greenwheels 211',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-111.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('4512de09-9690-4e74-a477-f2ea6b999528',218849,now(),now(),'{"beaconRegionId":"ed0ebebe-1c08-4644-83ac-ca226f7936ea","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":2}}',218849,'Exit with dwell for Greenwheels 211',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-111.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('300cd823-6188-4c6e-ad3d-7030611e5d40',218849,now(),now(),'{"beaconRegionId":"ed0ebebe-1c08-4644-83ac-ca226f7936ea","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":2}}',218849,'Exit without dwell for Greenwheels 211',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-112.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('5d706f9f-d453-447c-81ae-17e108f281bd',218849,now(),now(),'{"beaconRegionId":"ed0ebebe-1c08-4644-83ac-ca226f7936ea","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":2}}',218849,'Dwell for Greenwheels 211',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-112.892432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7d692e93-f750-44f0-88b9-44fd72941bbc',218849,now(),now(),'{"beaconRegionId":"a6a57652-33f7-4b3d-814e-89c5227dacef","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":2}}',218849,'Entry for Greenwheels 212',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-113.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('d1ab29a2-9571-42e3-8775-25a57b93bf22',218849,now(),now(),'{"beaconRegionId":"a6a57652-33f7-4b3d-814e-89c5227dacef","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":2}}',218849,'Exit with dwell for Greenwheels 212',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-114.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ada9e91c-d568-4020-bb9e-d06bfa6da2fe',218849,now(),now(),'{"beaconRegionId":"a6a57652-33f7-4b3d-814e-89c5227dacef","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":2}}',218849,'Exit without dwell for Greenwheels 212',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-114.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('b13c9cba-0523-4577-b8b3-3dd65e7c31ca',218849,now(),now(),'{"beaconRegionId":"a6a57652-33f7-4b3d-814e-89c5227dacef","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":2}}',218849,'Dwell for Greenwheels 212',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.755596,-115.292432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('5ac3f6a3-17f3-436a-a79d-27eb8bf5e885',218849,now(),now(),'{"beaconRegionId":"c79a4023-a213-4e30-9e3b-2ab820dbfb1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":2}}',218849,'Entry for Greenwheels 213',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-115.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('d62000b6-5cfb-47c9-b660-6025585cfe97',218849,now(),now(),'{"beaconRegionId":"c79a4023-a213-4e30-9e3b-2ab820dbfb1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":2}}',218849,'Exit with dwell for Greenwheels 213',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-116.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('003a88e5-46b3-45ba-a46e-661e50b3e86f',218849,now(),now(),'{"beaconRegionId":"c79a4023-a213-4e30-9e3b-2ab820dbfb1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":2}}',218849,'Exit without dwell for Greenwheels 213',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-117.092432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('0cc54892-94b6-474f-8e23-a60015af7a64',218849,now(),now(),'{"beaconRegionId":"c79a4023-a213-4e30-9e3b-2ab820dbfb1d","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":2}}',218849,'Dwell for Greenwheels 213',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-117.692432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('62810747-f492-4051-b96f-f0c5a3dc6f3e',218849,now(),now(),'{"beaconRegionId":"0f744f29-ae62-4c62-a94c-b84942500fa0","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":2}}',218849,'Entry for Greenwheels 214',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-118.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('37246932-aa57-4bd8-adc1-37815485c4ed',218849,now(),now(),'{"beaconRegionId":"0f744f29-ae62-4c62-a94c-b84942500fa0","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":2}}',218849,'Exit with dwell for Greenwheels 214',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-118.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('002ab667-1ec8-43e9-ace3-6283d868b658',218849,now(),now(),'{"beaconRegionId":"0f744f29-ae62-4c62-a94c-b84942500fa0","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":2}}',218849,'Exit without dwell for Greenwheels 214',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-119.492432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ce4ee55b-cef5-41e2-b6ee-34de4cbb11c2',218849,now(),now(),'{"beaconRegionId":"0f744f29-ae62-4c62-a94c-b84942500fa0","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":2}}',218849,'Dwell for Greenwheels 214',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-120.092432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('6c44e98d-5abc-437c-97fd-b0553c053b05',218849,now(),now(),'{"beaconRegionId":"2d887aa8-36f9-47d5-b284-468877a37476","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":2}}',218849,'Entry for Greenwheels 215',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-120.692432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('edcdcef2-97c7-4a52-baa6-5d1b1a388a74',218849,now(),now(),'{"beaconRegionId":"2d887aa8-36f9-47d5-b284-468877a37476","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":2}}',218849,'Exit with dwell for Greenwheels 215',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-121.292432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('93c1053c-c9e0-426e-aa54-bbf943aee7ba',218849,now(),now(),'{"beaconRegionId":"2d887aa8-36f9-47d5-b284-468877a37476","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":2}}',218849,'Exit without dwell for Greenwheels 215',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-121.892432, '10601-2601');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7a998a96-0747-4628-a1d7-76bd3f9bfac2',218849,now(),now(),'{"beaconRegionId":"2d887aa8-36f9-47d5-b284-468877a37476","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":2}}',218849,'Dwell for Greenwheels 215',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.755596,-122.492432, '10601-2601');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ceba5fa8-1276-448a-8a0d-c4acc8537ae4',218849,now(),now(),'{"beaconRegionId":"4c08cb5f-45c3-46b8-ac3d-e1874da46811","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":3}}',218849,'Entry for Greenwheels 31',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-99.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('d72a8fbf-e0fd-48a3-a871-0371a0aac318',218849,now(),now(),'{"beaconRegionId":"4c08cb5f-45c3-46b8-ac3d-e1874da46811","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":3}}',218849,'Exit with dwell for Greenwheels 31',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-99.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('881f27a8-cd7e-432e-8726-6710d2278000',218849,now(),now(),'{"beaconRegionId":"4c08cb5f-45c3-46b8-ac3d-e1874da46811","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":3}}',218849,'Exit without dwell for Greenwheels 31',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-100.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('861fa0ec-d887-4454-bb1a-d110ee6b4f1b',218849,now(),now(),'{"beaconRegionId":"4c08cb5f-45c3-46b8-ac3d-e1874da46811","dwell":10,"alwaysInclude":true,"actual":{"minor":1,"major":3}}',218849,'Dwell for Greenwheels 31',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-100.892432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('2213ad87-35be-47b0-90a7-887247d19e75',218849,now(),now(),'{"beaconRegionId":"22027737-4465-41af-ae08-120952fa47a7","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":3}}',218849,'Entry for Greenwheels 32',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-101.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3663e5a5-25b2-4bec-988a-ee09f6de65d7',218849,now(),now(),'{"beaconRegionId":"22027737-4465-41af-ae08-120952fa47a7","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":3}}',218849,'Exit with dwell for Greenwheels 32',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-102.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('4aace3f4-51a6-4243-a07d-f04c1226a11e',218849,now(),now(),'{"beaconRegionId":"22027737-4465-41af-ae08-120952fa47a7","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":3}}',218849,'Exit without dwell for Greenwheels 32',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-102.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('2c30a5bb-b88b-4644-ad7c-828b126fb923',218849,now(),now(),'{"beaconRegionId":"22027737-4465-41af-ae08-120952fa47a7","dwell":20,"alwaysInclude":true,"actual":{"minor":2,"major":3}}',218849,'Dwell for Greenwheels 32',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-103.292432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('1ddff8a2-1861-46cb-94cf-272ff8687ea2',218849,now(),now(),'{"beaconRegionId":"2f3a88a9-f387-4d20-9032-978040ff68dc","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":3}}',218849,'Entry for Greenwheels 33',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-103.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('61f1b4b6-fdc9-4346-8a54-6c7727a127d4',218849,now(),now(),'{"beaconRegionId":"2f3a88a9-f387-4d20-9032-978040ff68dc","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":3}}',218849,'Exit with dwell for Greenwheels 33',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-104.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('d1547e35-351b-4501-a01a-0d0c44910fdd',218849,now(),now(),'{"beaconRegionId":"2f3a88a9-f387-4d20-9032-978040ff68dc","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":3}}',218849,'Exit without dwell for Greenwheels 33',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-105.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ed45b904-4d4a-4009-a1f5-90a9ce15a27b',218849,now(),now(),'{"beaconRegionId":"2f3a88a9-f387-4d20-9032-978040ff68dc","dwell":30,"alwaysInclude":true,"actual":{"minor":3,"major":3}}',218849,'Dwell for Greenwheels 33',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-105.692432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('dbd85c19-e743-486d-b9fe-5421e4cf7282',218849,now(),now(),'{"beaconRegionId":"b27ded0e-9f5f-4db5-a2db-7591dd17f67d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":3}}',218849,'Entry for Greenwheels 34',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-106.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bcc11ccb-fed7-4f16-a21f-6cec55c452ec',218849,now(),now(),'{"beaconRegionId":"b27ded0e-9f5f-4db5-a2db-7591dd17f67d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":3}}',218849,'Exit with dwell for Greenwheels 34',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-106.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('539a7eb4-ee64-400e-bc9c-4a5b68201b4f',218849,now(),now(),'{"beaconRegionId":"b27ded0e-9f5f-4db5-a2db-7591dd17f67d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":3}}',218849,'Exit without dwell for Greenwheels 34',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-107.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('9c92adef-bcb7-4767-9637-6f7516b1582a',218849,now(),now(),'{"beaconRegionId":"b27ded0e-9f5f-4db5-a2db-7591dd17f67d","dwell":10,"alwaysInclude":true,"actual":{"minor":4,"major":3}}',218849,'Dwell for Greenwheels 34',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-108.092432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('a228aede-9f74-475d-bb4d-e099fe4eb38a',218849,now(),now(),'{"beaconRegionId":"01f8e806-fafe-42cd-b3fa-41814ef7e6e6","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":3}}',218849,'Entry for Greenwheels 35',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-108.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('799ba50c-7533-49c5-a3b6-7bd391fb57f3',218849,now(),now(),'{"beaconRegionId":"01f8e806-fafe-42cd-b3fa-41814ef7e6e6","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":3}}',218849,'Exit with dwell for Greenwheels 35',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-109.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('abfc051e-4e19-4b65-9ffc-f0892589a5eb',218849,now(),now(),'{"beaconRegionId":"01f8e806-fafe-42cd-b3fa-41814ef7e6e6","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":3}}',218849,'Exit without dwell for Greenwheels 35',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-109.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('273db1b6-f969-4202-ba0a-ede99d1014fd',218849,now(),now(),'{"beaconRegionId":"01f8e806-fafe-42cd-b3fa-41814ef7e6e6","dwell":20,"alwaysInclude":true,"actual":{"minor":5,"major":3}}',218849,'Dwell for Greenwheels 35',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-110.492432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ec6bdde1-4df2-4369-bc11-4f3e19278c5c',218849,now(),now(),'{"beaconRegionId":"fe167695-690b-4b5b-a4c8-a5df9cd72c82","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":3}}',218849,'Entry for Greenwheels 36',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-111.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('46d5f28a-6397-46e8-bd86-cf105d616d0b',218849,now(),now(),'{"beaconRegionId":"fe167695-690b-4b5b-a4c8-a5df9cd72c82","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":3}}',218849,'Exit with dwell for Greenwheels 36',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-111.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3dd1f182-9140-4e59-b05d-d350eb619da3',218849,now(),now(),'{"beaconRegionId":"fe167695-690b-4b5b-a4c8-a5df9cd72c82","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":3}}',218849,'Exit without dwell for Greenwheels 36',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-112.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('a2a5cbaf-1631-48d4-8ada-51e233dd1cef',218849,now(),now(),'{"beaconRegionId":"fe167695-690b-4b5b-a4c8-a5df9cd72c82","dwell":30,"alwaysInclude":true,"actual":{"minor":6,"major":3}}',218849,'Dwell for Greenwheels 36',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-112.892432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f62abe8f-d586-485e-8409-b62884e1c286',218849,now(),now(),'{"beaconRegionId":"7f70f68c-e24e-4478-a424-31fe287b5d12","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":3}}',218849,'Entry for Greenwheels 37',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-113.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('6a5c34a2-732f-4fb9-8aa9-3bf06d6177c9',218849,now(),now(),'{"beaconRegionId":"7f70f68c-e24e-4478-a424-31fe287b5d12","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":3}}',218849,'Exit with dwell for Greenwheels 37',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-114.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('ad8e9d42-1553-4084-b661-1c689140ec99',218849,now(),now(),'{"beaconRegionId":"7f70f68c-e24e-4478-a424-31fe287b5d12","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":3}}',218849,'Exit without dwell for Greenwheels 37',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-114.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('267d9858-c519-4dea-b528-46af112d620a',218849,now(),now(),'{"beaconRegionId":"7f70f68c-e24e-4478-a424-31fe287b5d12","dwell":10,"alwaysInclude":true,"actual":{"minor":7,"major":3}}',218849,'Dwell for Greenwheels 37',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-115.292432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('52a26f87-5561-4171-a43b-daaac31ba598',218849,now(),now(),'{"beaconRegionId":"8780f0d1-7513-497b-9f22-76c559c81334","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":3}}',218849,'Entry for Greenwheels 38',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-115.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('7d73315d-e6e2-44de-a2a7-1fe60d4f89f8',218849,now(),now(),'{"beaconRegionId":"8780f0d1-7513-497b-9f22-76c559c81334","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":3}}',218849,'Exit with dwell for Greenwheels 38',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-116.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa959442-24f6-4250-8e8a-6db12e950e72',218849,now(),now(),'{"beaconRegionId":"8780f0d1-7513-497b-9f22-76c559c81334","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":3}}',218849,'Exit without dwell for Greenwheels 38',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-117.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('52580422-70e7-4cb5-aaf7-a646cc03aa53',218849,now(),now(),'{"beaconRegionId":"8780f0d1-7513-497b-9f22-76c559c81334","dwell":20,"alwaysInclude":true,"actual":{"minor":8,"major":3}}',218849,'Dwell for Greenwheels 38',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-117.692432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f59a23e5-009e-4baa-a814-718784532e45',218849,now(),now(),'{"beaconRegionId":"3f807cc8-f8e7-4405-a3aa-6a5beef7934d","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":3}}',218849,'Entry for Greenwheels 39',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-118.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('200fbada-40fc-42fe-88c5-2da80139fecc',218849,now(),now(),'{"beaconRegionId":"3f807cc8-f8e7-4405-a3aa-6a5beef7934d","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":3}}',218849,'Exit with dwell for Greenwheels 39',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-118.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('209f1e51-53eb-45ea-986d-ddd36667f186',218849,now(),now(),'{"beaconRegionId":"3f807cc8-f8e7-4405-a3aa-6a5beef7934d","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":3}}',218849,'Exit without dwell for Greenwheels 39',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-119.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('138bcb8c-66dc-42fa-b2f0-0e3dd3ab8277',218849,now(),now(),'{"beaconRegionId":"3f807cc8-f8e7-4405-a3aa-6a5beef7934d","dwell":30,"alwaysInclude":true,"actual":{"minor":9,"major":3}}',218849,'Dwell for Greenwheels 39',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.455596,-120.092432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('0be187bc-0cb7-4ebd-87ff-ec96927cf988',218849,now(),now(),'{"beaconRegionId":"fb8a7ec3-d128-4497-82d2-7f7eb9465923","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":3}}',218849,'Entry for Greenwheels 310',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-120.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('09c24c1e-76df-440e-9640-6c06a4b7f753',218849,now(),now(),'{"beaconRegionId":"fb8a7ec3-d128-4497-82d2-7f7eb9465923","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":3}}',218849,'Exit with dwell for Greenwheels 310',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-121.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3648e98a-c34f-4c5a-b079-4ef5b99a7565',218849,now(),now(),'{"beaconRegionId":"fb8a7ec3-d128-4497-82d2-7f7eb9465923","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":3}}',218849,'Exit without dwell for Greenwheels 310',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-121.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('cfcc5bc8-491a-4904-99c4-abc4d7b27bdb',218849,now(),now(),'{"beaconRegionId":"fb8a7ec3-d128-4497-82d2-7f7eb9465923","dwell":10,"alwaysInclude":true,"actual":{"minor":10,"major":3}}',218849,'Dwell for Greenwheels 310',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.455596,-122.492432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('cd97b270-a407-4b83-b09a-2c175e0cc609',218849,now(),now(),'{"beaconRegionId":"02d60c6b-03dc-4c09-8c24-c7d9decc679d","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":3}}',218849,'Entry for Greenwheels 311',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-99.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('c634541f-ea8e-41bc-b012-fdd5e954aa7c',218849,now(),now(),'{"beaconRegionId":"02d60c6b-03dc-4c09-8c24-c7d9decc679d","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":3}}',218849,'Exit with dwell for Greenwheels 311',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-99.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('47631c40-85f5-4539-bfee-78eb34c66cda',218849,now(),now(),'{"beaconRegionId":"02d60c6b-03dc-4c09-8c24-c7d9decc679d","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":3}}',218849,'Exit without dwell for Greenwheels 311',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-100.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('f00dca70-1fcd-4db1-9ea6-36f5b016eb7a',218849,now(),now(),'{"beaconRegionId":"02d60c6b-03dc-4c09-8c24-c7d9decc679d","dwell":20,"alwaysInclude":true,"actual":{"minor":11,"major":3}}',218849,'Dwell for Greenwheels 311',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-100.892432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('fa664c7b-0ad8-40a4-9c0a-782688e63384',218849,now(),now(),'{"beaconRegionId":"0db949d7-acb1-431f-9730-01845eaa76e5","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":3}}',218849,'Entry for Greenwheels 312',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-101.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('385564ba-917e-430d-9d7c-41de33cce978',218849,now(),now(),'{"beaconRegionId":"0db949d7-acb1-431f-9730-01845eaa76e5","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":3}}',218849,'Exit with dwell for Greenwheels 312',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-102.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('90f42a64-5b51-4760-9798-39f751a71fbe',218849,now(),now(),'{"beaconRegionId":"0db949d7-acb1-431f-9730-01845eaa76e5","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":3}}',218849,'Exit without dwell for Greenwheels 312',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-102.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('8cdabd08-34ee-489b-9b5b-b66a2a252376',218849,now(),now(),'{"beaconRegionId":"0db949d7-acb1-431f-9730-01845eaa76e5","dwell":30,"alwaysInclude":true,"actual":{"minor":12,"major":3}}',218849,'Dwell for Greenwheels 312',218856, 'New York', 'USA ', '5151 Pooks Hill Road, Bethesda Marriott, Bethesda, MD 20814',-58.155596,-103.292432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('6905edd5-94ec-443a-be35-04930ec7b14e',218849,now(),now(),'{"beaconRegionId":"99256247-b952-4b44-9f9c-533a3fb39323","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":3}}',218849,'Entry for Greenwheels 313',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-103.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('b22d3ca4-87ee-4942-9458-6bd5c49bc89b',218849,now(),now(),'{"beaconRegionId":"99256247-b952-4b44-9f9c-533a3fb39323","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":3}}',218849,'Exit with dwell for Greenwheels 313',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-104.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('10eb1068-e869-4652-914f-7836b4468c1f',218849,now(),now(),'{"beaconRegionId":"99256247-b952-4b44-9f9c-533a3fb39323","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":3}}',218849,'Exit without dwell for Greenwheels 313',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-105.092432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3e98f95e-2a27-427b-a86f-b05dbe3cbfc1',218849,now(),now(),'{"beaconRegionId":"99256247-b952-4b44-9f9c-533a3fb39323","dwell":10,"alwaysInclude":true,"actual":{"minor":13,"major":3}}',218849,'Dwell for Greenwheels 313',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-105.692432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('b8e36c86-fab4-430b-b2db-b18d37a1f321',218849,now(),now(),'{"beaconRegionId":"5f100a7c-7bfa-4599-972e-8e423e80cd76","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":3}}',218849,'Entry for Greenwheels 314',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-106.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('a967c3d2-1b65-4c5a-a055-716939924a8d',218849,now(),now(),'{"beaconRegionId":"5f100a7c-7bfa-4599-972e-8e423e80cd76","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":3}}',218849,'Exit with dwell for Greenwheels 314',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-106.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('046637b3-5abd-4350-9dff-58f358e06608',218849,now(),now(),'{"beaconRegionId":"5f100a7c-7bfa-4599-972e-8e423e80cd76","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":3}}',218849,'Exit without dwell for Greenwheels 314',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-107.492432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('310ee4b6-66c3-426a-938e-a08b4897e75b',218849,now(),now(),'{"beaconRegionId":"5f100a7c-7bfa-4599-972e-8e423e80cd76","dwell":20,"alwaysInclude":true,"actual":{"minor":14,"major":3}}',218849,'Dwell for Greenwheels 314',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-108.092432, '12203');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('1aec0808-69f4-44ea-9d76-c4fc3f1aa913',218849,now(),now(),'{"beaconRegionId":"8f8b1ca2-9fd8-492a-a137-42b61a65c166","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":3}}',218849,'Entry for Greenwheels 315',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-108.692432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('3064ac18-3c09-4b00-b868-05c5b6622d53',218849,now(),now(),'{"beaconRegionId":"8f8b1ca2-9fd8-492a-a137-42b61a65c166","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":3}}',218849,'Exit with dwell for Greenwheels 315',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-109.292432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('58a2788c-1d4e-4539-9654-e487d62d25b0',218849,now(),now(),'{"beaconRegionId":"8f8b1ca2-9fd8-492a-a137-42b61a65c166","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":3}}',218849,'Exit without dwell for Greenwheels 315',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-109.892432, '12203');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('1354dcc9-61ec-47fd-8842-66ee73781dbc',218849,now(),now(),'{"beaconRegionId":"8f8b1ca2-9fd8-492a-a137-42b61a65c166","dwell":30,"alwaysInclude":true,"actual":{"minor":15,"major":3}}',218849,'Dwell for Greenwheels 315',218856, 'New York', 'USA ', '6711 Democracy Blvd, Bethesda, MD 20817',-58.155596,-110.492432, '12203');
+

@@ -1,0 +1,16 @@
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb73311c4-b57a-4faa-823f-b6df36b0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":27.589171,"latitude":53.918085},"radius":500,"regionId":"bcdea0a0-3af9-47a9-9e61-eec65c860001"}',113062,'Exit for Nezavisimosti, 58',224878, 'Minsk', 'Belarus', 'Belarus, Minsk, Nezavisimosti, 58',53.918085,27.589171, '');
+
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb73311c4-b57a-4faa-823f-b6df36b0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":24.000921,"latitude":49.842569},"radius":500,"regionId":"bcdea0a0-3af9-47a9-9e61-eec65c860002"}',113062,'Exit for Oleny Stepanivny St, 42',224878, 'Lviv', 'Ukraine', 'Oleny Stepanivny St, 42, L''viv, Lviv Oblast, Ukraine',49.842569,24.000921, '');
+
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb73311c4-b57a-4faa-823f-b6df36b0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":30.921257,"latitude":52.40521},"radius":500,"regionId":"bcdea0a0-3af9-47a9-9e61-eec65c860003"}',113062,'Exit for Rechitsky, 80',224878, 'Gomel', 'Belarus', 'Belarus, Gomel, Rechitsky, 80',52.40521,30.921257, '');
+
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb73311c4-b57a-4faa-823f-b6df36b0004',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":31.008492,"latitude":52.425072},"radius":500,"regionId":"bcdea0a0-3af9-47a9-9e61-eec65c860004"}',113062,'Exit for Lenina av. 10',224878, 'Gomel', 'Belarus', 'Belarus, Gomel, Lenina av. 10',52.425072,31.008492, '');
+

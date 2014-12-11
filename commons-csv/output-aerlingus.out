@@ -1,0 +1,42 @@
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa92344ce1-e58a-4faa-823e-c6df35a0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.239609,"latitude":53.426552},"radius":500,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0001"}',113062,'Entry for Dublin Airport',224878, 'Dublin', 'Ireland', 'Dublin Airport, Dublin, Ireland',53.426552,-6.239609, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb92344ce1-e58a-4faa-823e-c6df35b0001',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.239609,"latitude":53.426552},"radius":500,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0001"}',113062,'Exit for Dublin Airport',224878, 'Dublin', 'Ireland', 'Dublin Airport, Dublin, Ireland',53.426552,-6.239609, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa92344ce1-e58a-4faa-823e-c6df35a0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.919498,"latitude":52.692427},"radius":250,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0002"}',113062,'Entry for Shannon Airport',224878, 'Clare', 'Ireland', 'Shannon Airport, Clare, Ireland',52.692427,-8.919498, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb92344ce1-e58a-4faa-823e-c6df35b0002',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.919498,"latitude":52.692427},"radius":250,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0002"}',113062,'Exit for Shannon Airport',224878, 'Clare', 'Ireland', 'Shannon Airport, Clare, Ireland',52.692427,-8.919498, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa92344ce1-e58a-4faa-823e-c6df35a0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.490254,"latitude":51.850119},"radius":200,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0003"}',113062,'Entry for Cork Airport',224878, 'Cork', 'Ireland', 'Cork Airport, Kinsale Road, Cork, Ireland',51.850119,-8.490254, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb92344ce1-e58a-4faa-823e-c6df35b0003',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-8.490254,"latitude":51.850119},"radius":200,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0003"}',113062,'Exit for Cork Airport',224878, 'Cork', 'Ireland', 'Cork Airport, Kinsale Road, Cork, Ireland',51.850119,-8.490254, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa92344ce1-e58a-4faa-823e-c6df35a0004',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.21956,"latitude":54.661471},"radius":250,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0004"}',113062,'Entry for Belfast International Airport',224878, 'Belfast', 'United Kingdom', 'Belfast International Airport, Airport Road, Belfast BT29 4AB, United Kingdom',54.661471,-6.21956, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb92344ce1-e58a-4faa-823e-c6df35b0004',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-6.21956,"latitude":54.661471},"radius":250,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0004"}',113062,'Exit for Belfast International Airport',224878, 'Belfast', 'United Kingdom', 'Belfast International Airport, Airport Road, Belfast BT29 4AB, United Kingdom',54.661471,-6.21956, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa92344ce1-e58a-4faa-823e-c6df35a0005',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-0.454295,"latitude":51.470022},"radius":1250,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0005"}',113062,'Entry for Heathrow Airport',224878, 'London', 'United Kingdom', 'Heathrow Airport, Greater London TW6, United Kingdom',51.470022,-0.454295, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb92344ce1-e58a-4faa-823e-c6df35b0005',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-0.454295,"latitude":51.470022},"radius":1250,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0005"}',113062,'Exit for Heathrow Airport',224878, 'London', 'United Kingdom', 'Heathrow Airport, Greater London TW6, United Kingdom',51.470022,-0.454295, '');
+
+INSERT INTO `SimpleLocationEntity` ( `id`,`creatorUserId`, `dateAdded`,`dateLastModified`,`description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('aa92344ce1-e58a-4faa-823e-c6df35a0006',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-73.78706,"latitude":40.645063},"radius":1000,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0006"}',113062,'Entry for JFK International Airport',224878, 'New York City', 'United States', 'JFK International Airport, Jamaica, New York, NY 11430, United States',40.645063,-73.78706, '');
+INSERT INTO `SimpleLocationEntity` (`id`, `creatorUserId`,`dateAdded`,`dateLastModified`, `description`, `lastModifiedByUserId`, `name`, `organizationId`, `city`, `country`, `formattedAddress`, `latitude`, `longitude`, `postal_code`)
+VALUES
+('bb92344ce1-e58a-4faa-823e-c6df35b0006',113062,now(),now(),'{"alwaysInclude":true,"actual":{"longitude":-73.78706,"latitude":40.645063},"radius":1000,"regionId":"ab5e900-3af9-47a9-9e72-eec75c7b0006"}',113062,'Exit for JFK International Airport',224878, 'New York City', 'United States', 'JFK International Airport, Jamaica, New York, NY 11430, United States',40.645063,-73.78706, '');
+
