@@ -14,3 +14,4 @@ screen -S "gilad" -p 0 -X exec cd /Users/gilad/Library/Developer/Xcode/DerivedDa
 #cd ~/workspace/java_projects/android-projects
 #cd ~/workspace/any-java-projects/xwebservice
 #cd ~/Library/MobileDevice/Provisioning\ Profiles/
+#cd ~/workspace/stash/giladm # local git
