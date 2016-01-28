@@ -88,6 +88,20 @@ CheckIfAggregatorServiceCompleted()
   fi
 }
 
+# Check if ChannelBase Aggregator is complete
+CheckIfChannelBaseAggregatorServiceCompleted()
+{
+  if [[ $(grep -c 'ChannelBasedMetricsAggregator Done' /opt/jboss/server/default/log/server.log ) != 0 ]];
+  then
+    echo "Finish processing ChannelBasedMetricsAggregator service at " `date`
+    # Remove the aggregator service from deploy folder
+    rm -f /opt/jboss/server/default/deploy/ChannelBasedMetricsAggregator.sar  
+    return 0
+  else
+    return 1
+  fi
+}
+
 # check the log file for feedback complete. return 0 if success
 CheckIfFeddbackServiceCompleted()
 {
@@ -145,11 +159,12 @@ masterdir=/opt/share/master
 feedbackservice=FeedbackService.sar
 exportcallbackservice=ExportCallbackService.sar
 applicationmetricsaggregator=ApplicationMetricsAggregator.sar
+channelbasedmetricsaggregator=ChannelBasedMetricsAggregator.sar
 
 stopJboss
 
 echo "Clearing deployed files"
-for file in $feedbackservice $exportcallbackservice $applicationmetricsaggregator;
+for file in $feedbackservice $exportcallbackservice $applicationmetricsaggregator $channelbasedmetricsaggregator;
 do
     rm -f $deploydir/$file
 done
@@ -232,6 +247,28 @@ do
                         break
                 else   
                         echo "Aggregator service is still running. " `date`
+                        sleep $wait_time
+                fi
+done
+
+ 
+# 4 loop ChannelBased metrics aggregation
+cp -p $masterdir/$channelbasedmetricsaggregator $deploydir  
+chown jboss.jboss $deploydir/$channelbasedmetricsaggregator
+touch $deploydir/$channelbasedmetricsaggregator
+
+echo "Waiting for Channel Base Metrics Aggregator to complete"
+sleep 60
+for (( ; ; ))
+do
+                nowis=`date +%Y-%m-%dT%H:%M`
+                CheckIfChannelBaseAggregatorServiceCompleted
+                if [ $? -eq $SUCCESS ]
+                then   
+                        echo "ChannelBased Metrics Aggregator service completed at $nowis" 
+                        break
+                else   
+                        echo "ChannelBased Aggregator service is still running. " `date`
                         sleep $wait_time
                 fi
 done
