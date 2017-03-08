@@ -11,9 +11,9 @@
 # deploys files in order (ExportCalback, FeedbackService, then ApplicationMetricsAggregator)
 # logs completion of each step
 # removes deploy files
-# stops jboss
+# Keep jboss running for Channel base aggregator
 # monitoring will be done on the /opt/jboss/server/default/log/server.log
-
+#
 export PATH="$PATH:/sbin"
 
 # Current day and time
@@ -124,6 +124,7 @@ stopJboss()
     if [[ $( ps -ef | grep jboss | grep -vc grep ) != 0 ]];
     then
         service jboss stop
+        sleep 5
         echo "Jboss stopped"
     else
         echo "Jboss not running"
@@ -132,13 +133,19 @@ stopJboss()
 
 startJboss()
 {
-    echo "Startiing Jboss"
+    echo "Before starting Jboss"
+# move the log file from the log dirctory so if starting again on same day it will not find the End token
+    mv /opt/jboss/server/default/log/server.log /opt/jboss/server/default/log/server.log.$nowis
+    # clean up jboss files /opt/jboss/server/default/log older than 2 days
+    /bin/find /opt/jboss/server/default/log -mtime +2 | xargs rm -f
+
+    echo "Starting Jboss"
     if [[ $( ps -ef | grep jboss | grep -vc grep ) != 0 ]];
     then
         echo "Jboss already running"
     else
         service jboss start
-        sleep 40
+        sleep 60
         # waiting until it is started up fully
         echo "Jboss started"
     fi
@@ -277,15 +284,7 @@ done
 DoSendEmail
 
 
- #stop jboss
-stopJboss
-    # move the log file from the log dirctory so if starting again on same day it will not find the End token
-    mv /opt/jboss/server/default/log/server.log /opt/jboss/server/default/log/server.log.$nowis  
-    # just remove file since it takes up too much space when run in DEBUG mode
-    # rm /opt/jboss/server/default/log/server.log.$nowis
-
-# clean up jboss files /opt/jboss/server/default/log older than 2 days
-/bin/find /opt/jboss/server/default/log -mtime +2 | xargs rm -f
+#Not stopping jboss as other process is going to run periodically
 
 date > $logdone
 echo "updated by $0" >> $logdone
