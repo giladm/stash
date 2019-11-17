@@ -153,6 +153,7 @@
         
         // Custom Send Email Plugin Example
         [[MCEActionRegistry sharedInstance] registerTarget:[[MailDelegate alloc] init] withSelector:@selector(sendEmail:) forAction:@"sendEmail"];
+        // gm custom plugin example
         [[MCEActionRegistry sharedInstance] registerTarget:[[NewsDelegate alloc] init] withSelector:@selector(getNews:) forAction:@"GetNews"];
 //        [[MCEActionRegistry sharedInstance] registerTarget:[[UrlInboxDelegate alloc] init] withSelector:@selector(getUrlInbox:) forAction:@"openApp"];
         [[MCEActionRegistry sharedInstance] registerTarget:[[UrlInboxDelegate alloc] init] withSelector:@selector(getUrlInbox:) forAction:@"UrlInboxMessage"];

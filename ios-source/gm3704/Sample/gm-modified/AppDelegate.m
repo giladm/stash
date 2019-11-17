@@ -3,7 +3,7 @@
  *
  * 5725E28, 5725I03
  *
- * © Copyright IBM Corp. 2011, 2016
+ * © Copyright IBM Corp. 2011, 2017
  * US Government Users Restricted Rights - Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
  */
 
@@ -23,6 +23,7 @@
 #import "SnoozeActionPlugin.h"
 #import "DisplayWebViewPlugin.h"
 #import "TextInputActionPlugin.h"
+#import "ExamplePlugin.h"
 
 // MCE Inbox Plugins
 #import "MCEInboxActionPlugin.h"
@@ -33,13 +34,6 @@
 #import "MCEInAppVideoTemplate.h"
 #import "MCEInAppImageTemplate.h"
 #import "MCEInAppBannerTemplate.h"
-
-// gm replace url
-#import "GMNotificationDelegate.h"
-#import "URLDelegate.h"
-#import "URLActionPlugin.h"
-
-#import <IBMMobilePush/MCEInboxDatabase.h>
 
 @interface MyAlertView : UIAlertView
 @end
@@ -66,20 +60,19 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-/*
+    [MCESdk sharedInstance];
     [[NSUserDefaults standardUserDefaults]registerDefaults:@{@"action":@"set",@"standardType":@"dial", @"standardDialValue":@"\"8774266006\"", @"standardUrlValue":@"\"http://ibm.com\"", @"customType":@"sendEmail", @"customValue":@"{\"subject\":\"Hello from Sample App\", \"body\": \"This is an example email body\", \"recipient\":\"fake-email@fake-site.com\"}", @"categoryId":@"example",@"button1":@"Accept",@"button2":@"Reject"}];
-  */
+    
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= 100000
     if([UNUserNotificationCenter class])
     {
         UNUserNotificationCenter * center = [UNUserNotificationCenter currentNotificationCenter];
-        //center.delegate=MCENotificationDelegate.sharedInstance;
-        center.delegate=GMNotificationDelegate.sharedInstance;
+        center.delegate=MCENotificationDelegate.sharedInstance;
         NSUInteger options = UNAuthorizationOptionAlert|UNAuthorizationOptionSound|UNAuthorizationOptionBadge|UNAuthorizationOptionCarPlay;
         [center requestAuthorizationWithOptions: options completionHandler:^(BOOL granted, NSError * _Nullable error) {
             // Enable or disable features based on authorization.
             NSLog(@"Notifications response %d, %@", granted, error);
-            [application registerForRemoteNotifications];
+            [application performSelectorOnMainThread:@selector(registerForRemoteNotifications) withObject:nil waitUntilDone:TRUE];
             [center setNotificationCategories:[self appCategories]];
         }];
     }
@@ -92,12 +85,9 @@
         [application registerForRemoteNotifications];
     }
     else {
-        NSLog(@"Not supporting iOS < 8");
-        
         //register to receive notifications iOS <8
-        
-        /*UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
-        [application registerForRemoteNotificationTypes:myTypes]; */
+        UIRemoteNotificationType myTypes = UIRemoteNotificationTypeBadge | UIRemoteNotificationTypeAlert | UIRemoteNotificationTypeSound;
+        [application registerForRemoteNotificationTypes:myTypes];
     }
     
     return YES;
@@ -115,15 +105,11 @@
         MCESdk.sharedInstance.presentNotification = ^BOOL(NSDictionary * userInfo){
             // gm override notification
             NSLog(@"Checking if should present notification:%@",userInfo);
-     //       if (userInfo[@"aps"] && userInfo[@"mce"] ) {
-                    return TRUE;
-       //     }
-                                     
+            //       if (userInfo[@"aps"] && userInfo[@"mce"] ) {
             [UIApplication.sharedApplication.delegate performSelector: @selector(handleSimplePush:) withObject:userInfo];
-            return FALSE;// if you don't want the notification to show to the user when the app is active
-            
+            return TRUE;// if you don't want the notification to show to the user when the app is active
+            // return FALSE if you don't want the notification to show to the user when the app is active
         };
-        
         [MCESdk sharedInstance].customAlertViewClass = [MyAlertView class];
         [MCESdk sharedInstance].customAlertControllerClass = [MyAlertController class];
 
@@ -139,6 +125,7 @@
         
         // Action Plugins
         [ActionMenuPlugin registerPlugin];
+        [ExamplePlugin registerPlugin];
         [AddToCalendarPlugin registerPlugin];
         [AddToPassbookPlugin registerPlugin];
         [SnoozeActionPlugin registerPlugin];
@@ -147,63 +134,8 @@
         
         // Custom Send Email Plugin Example
         [[MCEActionRegistry sharedInstance] registerTarget:[[MailDelegate alloc] init] withSelector:@selector(sendEmail:) forAction:@"sendEmail"];
-
-        //gm replace url action
-        /*
-         [URLActionPlugin registerPlugin];
-         [[MCEActionRegistry sharedInstance] registerTarget:[[URLDelegate alloc] init] withSelector:@selector(getURL:) forAction:@"openApp"];
-        [[MCEActionRegistry sharedInstance] registerTarget:[[URLDelegate alloc] init] withSelector:@selector(getURL:) forAction:@"url"];
-        */
-        //Unread inbox message count
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(syncComplete:) name:@"MCESyncDatabase" object: nil];
-        [[MCEInboxQueueManager sharedInstance] syncInbox];
-        // send attributes
-        NSDictionary *JSONDic=[[NSDictionary alloc] init];
-        JSONDic =@{@"age":@20,@"gender":@"female",@"zip":@12345,@"vote":@FALSE};
-        NSError *error;
-        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:JSONDic options:0 error:&error];
-        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-
-        NSArray *keys = [NSArray arrayWithObjects:@"key1", @"key2", @"key3", nil];
-        NSArray *objects = [NSArray arrayWithObjects:@"value1", @"value2", jsonString,nil];
-        
-        NSDictionary *dictionary = [NSDictionary dictionaryWithObjects:objects forKeys:keys];
-        //[[MCEAttributesQueueManager sharedInstance] updateUserAttributes:dictionary];
-        [[[MCEAttributesClient alloc] init] updateUserAttributes:dictionary completion:^(NSError *error) {
-            if(error) {
-                NSLog(@"Error while updating user attributes %@", error);
-            }
-            else {
-                NSLog(@"User attributes updated%@",dictionary);
-            }
-        }];
-        keys = [NSArray arrayWithObjects:@"key1",nil];
-        [[[MCEAttributesClient alloc] init] deleteUserAttributes:keys completion:^(NSError *error) {
-            if(error) {
-                NSLog(@"Error while deleting user attributes %@", error);
-            }
-            else {
-                NSLog(@"User attributes deleted%@",keys);
-            }
-        }];
-    
-        
     }
     return self;
-}
-- (void)syncComplete:(NSNotification*)notification
-{
-    int count =0;
-    NSMutableArray * inboxMessages = [[MCEInboxDatabase sharedInstance] inboxMessagesAscending:TRUE];
-    for (MCEInboxMessage * message in inboxMessages) {
-        if (!message.isRead) {
-            count++;
-        }
-    }
-    NSLog(@"count inbox: %d",count);
-    // can't have in this method anything that will change the inbox storage, as this will create recursive call
-    // to this method
-    
 }
 
 #pragma mark Define Static Category named "example"
@@ -248,19 +180,14 @@
     NSLog(@"responseInfo: %@", responseInfo);
 }
 
-- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo
-{
-    NSLog(@"didReceiveRemoteNotification: %@",userInfo);
-}
+
 #pragma mark Process Static Category No Choice Made
 - (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo fetchCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
-    NSLog(@"Do nothing here");
-    /*
     if(userInfo[@"aps"] && [userInfo[@"aps"][@"category"] isEqual: @"example"])
     {
         [[[MCESdk.sharedInstance.alertViewClass alloc] initWithTitle:@"Static category handler" message:@"Static Category, no choice made" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
-    } */
+    }
     completionHandler(UIBackgroundFetchResultNewData);
 }
 
@@ -328,11 +255,34 @@
     }
     completionHandler();
 }
+
 - (void) handleSimplePush:(NSDictionary *) aPush
 {
     NSLog(@"SHOW the message or something:%@",aPush);
-    [[[MCESdk.sharedInstance.alertViewClass alloc] initWithTitle:@"My Notification" message:@"This is going to be my message" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil]show];
-
+    int count =0;
+    NSMutableArray * inboxMessages = [[MCEInboxDatabase sharedInstance] inboxMessagesAscending:TRUE];
+    for (MCEInboxMessage * message in inboxMessages) {
+        NSLog(@"message content:%@",message.content);
+        NSLog(@"message inboxMessageId:%@",message.inboxMessageId);
+        NSLog(@"message richContentId:%@",message.richContentId);
+        
+        if (!message.isRead) {
+            count++;
+        }
+    }
+    NSLog(@"count inbox: %d",count);
+    
+    
+// check if message is of type news or product
+    /*
+     MCEInboxMessage * message = nil;
+     if(self.inboxMessageIdToShow)
+     {
+     message = [[MCEInboxDatabase sharedInstance] inboxMessageWithInboxMessageId: self.inboxMessageIdToShow];
+     }*/
+    // if prod add to permittedInboxRich dictionary
+    // go over messages and delete these that are product and not in permittedInboxRich list
+    
 }
 
 @end

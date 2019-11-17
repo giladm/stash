@@ -43,23 +43,23 @@ UIAlertView     *_remoteNotificationAlertView;
     NSLog(@"GMNotificationDelegate willPresentNotification:%@",userInfo);
     // check if app is in the foreground then handle the notification
     
-    /*
-     [_remoteNotificationAlertView dismissWithClickedButtonIndex:0
-     animated:NO];
-     
-     
-     _remoteNotificationAlertView = nil;
-     _remoteUserInfo = nil;
-     
-     _remoteNotificationAlertView = [[UIAlertView alloc] initWithTitle:CS_APPLICATION_NAME
-     message:[[[userInfo objectForKey:@"aps"] objectForKey:@"alert"] objectForKey:@"body"]
-     delegate:self
-     cancelButtonTitle:@"تجاهل"
-     otherButtonTitles:@"عرض", nil];
-     [_remoteNotificationAlertView show];
-     _remoteUserInfo = userInfo;
-     */
-    completionHandler(UNNotificationPresentationOptionAlert+UNNotificationPresentationOptionSound+UNNotificationPresentationOptionBadge);
+   /*
+    [_remoteNotificationAlertView dismissWithClickedButtonIndex:0
+                                                       animated:NO];
+    
+
+    _remoteNotificationAlertView = nil;
+    _remoteUserInfo = nil;
+    
+    _remoteNotificationAlertView = [[UIAlertView alloc] initWithTitle:CS_APPLICATION_NAME
+                                                              message:[[[userInfo objectForKey:@"aps"] objectForKey:@"alert"] objectForKey:@"body"]
+                                                             delegate:self
+                                                    cancelButtonTitle:@"تجاهل"
+                                                    otherButtonTitles:@"عرض", nil];
+    [_remoteNotificationAlertView show];
+    _remoteUserInfo = userInfo;
+    */
+completionHandler(UNNotificationPresentationOptionAlert+UNNotificationPresentationOptionSound+UNNotificationPresentationOptionBadge);
 }
 
 // This is where we will deal with category actions chosen by the user in iOS 10.
@@ -67,17 +67,17 @@ UIAlertView     *_remoteNotificationAlertView;
 {
     NSDictionary * userInfo = response.notification.request.content.userInfo;
     NSLog(@"GMNotificationDelegate didReceiveNotificationResponse:%@",userInfo);
-    
+
     // at the end - call MCE notification reponse handler
     [MCENotificationDelegate.sharedInstance userNotificationCenter: center didReceiveNotificationResponse:response withCompletionHandler: completionHandler];
-    
+   
 }
 
 #endif
 
 - (void)launchWithOptions:(UIApplication *)application andOptions:(NSDictionary *)launchOptions {
     
-    
+   
 }
 
 
@@ -90,19 +90,19 @@ UIAlertView     *_remoteNotificationAlertView;
             NSLog(@"Error while updating with attributename:'%@', attributetext:'%@' error is  %@",attributename,attributetext, error);
         }
         else {
-            
+
             NSLog(@"Succesfully set attributename:'%@', attributetext:    %@",attributename,attributetext);        }
     }];
-    
+
 }
 
 - (void)IBMSettingAttributestimestamp:(NSString*)attributename;
 {
     
-    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+ NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     [dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ss"]; //set required time format
     NSDate *now = [NSDate date];
-    NSString *timestampString = [dateFormatter stringFromDate:now];
+   NSString *timestampString = [dateFormatter stringFromDate:now];
     
     
     [[[MCEAttributesClient alloc] init] setUserAttributes:@{attributename:timestampString} completion:^(NSError *error) {
@@ -118,48 +118,47 @@ UIAlertView     *_remoteNotificationAlertView;
 
 -(void)storedetails;
 {
-    NSString *AppVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
+  NSString *AppVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     NSString *Appbuild = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleVersion"];
     
     NSString *Devicetype = [UIDevice currentDevice].model;
-    
-    
+   
+   
     NSString *DeviceName = [UIDevice currentDevice].name;
     NSString *DeviceOSVersion = [UIDevice currentDevice].systemVersion;
     NSString *DeviceSoftware = [UIDevice currentDevice].systemName;
-    
+   
     
     [[MCEAttributesQueueManager sharedInstance] setUserAttributes:@{@"AppName":@"Albayan-IOS",
-                                                                    @"AppVersion":AppVersion,
-                                                                    @"Appbuild":Appbuild,
-                                                                    @"Devicetype":Devicetype,
-                                                                    @"DeviceName":DeviceName,
-                                                                    @"DeviceOSVersion":DeviceOSVersion,
-                                                                    @"DeviceSoftware":DeviceSoftware
-                                                                    } ];
+                                                                   @"AppVersion":AppVersion,
+                                                                   @"Appbuild":Appbuild,
+                                                                   @"Devicetype":Devicetype,
+                                                                   @"DeviceName":DeviceName,
+                                                                   @"DeviceOSVersion":DeviceOSVersion,
+                                                                   @"DeviceSoftware":DeviceSoftware
+                                                                   } ];
     
     
     
-    
-    
+        
+  
 }
 #pragma mark - UIAlertViewDelegate
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
     
     if ([alertView isEqual:_remoteNotificationAlertView] && buttonIndex == 1) {
+       
+        
+         [[CustomNotifications sharedInstance] handleRemoteNotifications:_remoteUserInfo];
         
         
-        [[CustomNotifications sharedInstance] handleRemoteNotifications:_remoteUserInfo];
         
         
-        
-        
-        
+     
     }
 }
 // set the index of the tabbar where the inbox is hooked to
 
 
 @end
-

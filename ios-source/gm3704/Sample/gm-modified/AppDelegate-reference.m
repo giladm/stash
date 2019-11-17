@@ -73,8 +73,8 @@
     if([UNUserNotificationCenter class])
     {
         UNUserNotificationCenter * center = [UNUserNotificationCenter currentNotificationCenter];
-        //center.delegate=MCENotificationDelegate.sharedInstance;
-        center.delegate=GMNotificationDelegate.sharedInstance;
+        center.delegate=MCENotificationDelegate.sharedInstance;
+        //center.delegate=GMNotificationDelegate.sharedInstance;
         NSUInteger options = UNAuthorizationOptionAlert|UNAuthorizationOptionSound|UNAuthorizationOptionBadge|UNAuthorizationOptionCarPlay;
         [center requestAuthorizationWithOptions: options completionHandler:^(BOOL granted, NSError * _Nullable error) {
             // Enable or disable features based on authorization.
@@ -201,8 +201,6 @@
         }
     }
     NSLog(@"count inbox: %d",count);
-    // can't have in this method anything that will change the inbox storage, as this will create recursive call
-    // to this method
     
 }
 

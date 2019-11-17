@@ -1,3 +1,5 @@
+# to convert from base64 certificate to .p12 use:
+# java -jar ~/workspace/any-java-projects/ApnsCert/ApnsCert.jar <path_to_input_base64_file> <path_to_p12_output>
 if [ $# -ne 2 ]
 then
 	echo "Error in $0 - Invalid Argument Count"
