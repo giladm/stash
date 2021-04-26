@@ -43,8 +43,8 @@ CSV files of various types.
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <!-- 2.2 is last version compatible with Java 1.5 -->
-      <version>2.2</version>
+      <!-- 2.7 is last version compatible with Java 1.5 -->
+      <version>2.7</version>
       <scope>test</scope>
     </dependency>
     <dependency>
